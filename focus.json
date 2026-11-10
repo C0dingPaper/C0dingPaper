@@ -3,9 +3,9 @@
   "areas": [
     {"name": "AI & ML", "weight": 7},
     {"name": "Cybersecurity", "weight": 5},
-    {"name": "Systems & Linux", "weight": 4},
-    {"name": "Algorithms", "weight": 6},
-    {"name": "Software Engineering", "weight": 4},
+    {"name": "Systems & Linux", "weight": 9},
+    {"name": "Algorithms", "weight": 8},
+    {"name": "Software Engineering", "weight": 6},
     {"name": "Low-level Programming", "weight": 3}
   ]
 }
