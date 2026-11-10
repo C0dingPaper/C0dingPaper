@@ -55,7 +55,6 @@ $ cat focus.txt
 </td></tr>
 </table>
 
-> Project repository links can be added here once their public URLs are confirmed. No nonexistent repository links are included.
 
 ## `> security --practice`
 
@@ -97,8 +96,8 @@ These charts are **editable learning priorities**, not scored certifications or 
 <div align="center">
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/github-stats.svg" width="100%" alt="C0dingPaper GitHub repository statistics" /></td>
-<td width="50%" align="center"><img src="assets/github-languages.svg" width="100%" alt="Primary languages of public repositories" /></td>
+<td width="70%" align="center"><img src="assets/github-stats.svg" width="100%" alt="C0dingPaper GitHub repository statistics" /></td><br>
+<td width="70%" align="center"><img src="assets/github-languages.svg" width="100%" alt="Primary languages of public repositories" /></td>
 </tr>
 </table>
 </div>
@@ -122,7 +121,6 @@ These charts are **editable learning priorities**, not scored certifications or 
 </div>
 
 
----
 
 <div align="center">
 <img src="assets/footer.svg" width="100%" alt="Animated red footer" />
