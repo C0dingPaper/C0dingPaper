@@ -49,7 +49,7 @@ $ cat focus.txt
 
 </div>
 
-*Assembly and low-level debugging are areas of active study. Technology icons indicate experience or ongoing exploration, not verified mastery.*
+*Assembly and low-level debugging are areas of active study. Technology icons indicate experience and ongoing exploration*
 
 ---
 
@@ -71,9 +71,9 @@ An independent chess-playing AI project exploring:
 
 **Focus:** Python · Machine Learning · Reinforcement Learning
 
-**Status:** Development / learning project
+**Status:** Development / learning process / Still deciding the plan
 
-**Future goal:** Integrate the trained model with Chess Master Coach.
+**Future goal:** Integrate the trained model with Chess Master Coach web app.
 
 </td>
 <td width="50%" valign="top">
@@ -90,7 +90,7 @@ Key development areas:
 - User-specific improvement
 - Future integration with custom AI models
 
-**Focus:** Chess Education · Software Development · AI Integration
+**Focus:** Chess Education · Software Development · AI Integration (beta)
 
 **Status:** Ongoing project
 
@@ -164,8 +164,6 @@ I practice algorithmic problem-solving and data structures through LeetCode.
 - Dynamic programming
 - Time and space complexity
 
-*Live LeetCode statistics will be enabled when a username is provided.*
-
 ---
 
 ## `> focus --visualize`
@@ -182,7 +180,7 @@ I practice algorithmic problem-solving and data structures through LeetCode.
 
 </div>
 
-### 02 // Technical Radar
+### 02 //  Radar
 
 <div align="center">
 
@@ -205,9 +203,7 @@ I practice algorithmic problem-solving and data structures through LeetCode.
 | Software Engineering | 6/10 |
 | Low-level Programming | 3/10 |
 
-*These values are editable learning priorities, not independently verified proficiency measurements.*
-
-To update them, modify `focus.json` and regenerate the charts.
+*These values are editable learning priorities which I set for myself during this journey and not must-follow numbers.*
 
 ---
 
@@ -237,7 +233,7 @@ To update them, modify `focus.json` and regenerate the charts.
 
 </div>
 
-*Stats are generated from public GitHub repository metadata by a scheduled GitHub Action. Language statistics count repositories by their primary language, not lines of code.*
+*Stats are generated from public GitHub repository metadata by a scheduled GitHub Action. Language statistics count repositories by the primary programming language.*
 
 ---
 
@@ -253,7 +249,7 @@ To update them, modify `focus.json` and regenerate the charts.
 
 ---
 
-## `> sharingan --contributions --animate`
+## `> share --contributions --animate`
 
 <div align="center">
 
@@ -269,7 +265,6 @@ To update them, modify `focus.json` and regenerate the charts.
 
 **CRIMSON CONTRIBUTION SNAKE**
 
-*Automatically generated from GitHub contribution activity.*
 
 </div>
 
