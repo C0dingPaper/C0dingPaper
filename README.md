@@ -200,9 +200,9 @@ I practice algorithmic problem-solving and data structures through LeetCode.
 |---|---|
 | AI & Machine Learning | 7/10 |
 | Cybersecurity | 5/10 |
-| Systems & Linux | 4/10 |
-| Algorithms | 6/10 |
-| Software Engineering | 4/10 |
+| Systems & Linux | 9/10 |
+| Algorithms | 8/10 |
+| Software Engineering | 6/10 |
 | Low-level Programming | 3/10 |
 
 *These values are editable learning priorities, not independently verified proficiency measurements.*
