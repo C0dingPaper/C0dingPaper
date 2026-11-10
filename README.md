@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="assets/header.svg" width="100%" alt="Animated red and black C0dingPaper header" />
@@ -10,118 +11,276 @@
 
 </div>
 
+---
+
 ## `> whoami`
 
-I'm a Computer Science & Artificial Intelligence student interested in the full computing stack: from **assembly and Linux internals** to **neural networks and reinforcement learning**. I study cybersecurity to understand how systems fail and how to secure them, and I build projects that turn theory into functioning software.
+I'm a **Computer Science & Artificial Intelligence student** interested in understanding the full computing stack — from assembly and Linux internals to neural networks and reinforcement learning.
+
+I study cybersecurity to understand how systems fail and how to secure them. I build projects that turn theoretical knowledge into functioning software.
 
 ```text
 $ cat focus.txt
-[AI]        Custom model development, neural networks, self-play reinforcement learning
-[SECURITY]  Linux, web security, networking, hands-on security labs
+
+[AI]        Custom AI models, neural networks, self-play RL
+[SECURITY]  Linux, web security, networking, security labs
 [SYSTEMS]   C++, assembly, debugging, low-level computing
-[ALGO]      Data structures, algorithms, LeetCode practice
+[ALGO]      Data structures, algorithms, LeetCode
 [PROJECTS]  Chess AI Engine + Chess Master Coach
 ```
 
+---
+
 ## `> tech_stack --list`
 
-**Languages and systems**
+### Languages & Systems
 
-![Skills](https://skillicons.dev/icons?i=python,cpp,bash,linux,arch,git,github,sqlite)
+<div align="center">
 
-**AI and developer tooling**
+![Skills](https://skillicons.dev/icons?i=python,cpp,bash,linux,arch,git,github,sqlite&perline=8)
 
-![Skills](https://skillicons.dev/icons?i=pytorch,sklearn,vscode,neovim,docker)
+</div>
 
-*Assembly and low-level debugging are interests under active study. Icons indicate technologies I've used or am exploring, not verified mastery.*
+### AI & Development Tools
+
+<div align="center">
+
+![Skills](https://skillicons.dev/icons?i=pytorch,sklearn,vscode,neovim,docker&perline=8)
+
+</div>
+
+*Assembly and low-level debugging are areas of active study. Technology icons indicate experience or ongoing exploration, not verified mastery.*
+
+---
 
 ## `> ai --projects`
 
 <table>
-<tr><td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
-<h3>Chess AI Engine</h3>
-<p>An independent chess-playing AI project exploring <strong>neural network evaluation</strong>, <strong>self-play reinforcement learning</strong>, and rigorous model testing. The long-term goal is to connect a validated model to Chess Master Coach.</p>
-<p><strong>Focus:</strong> Python · ML · RL · chess representation · testing</p>
-<p><strong>Status:</strong> Development / learning project</p>
+### Chess AI Engine
 
-</td><td width="50%" valign="top">
+An independent chess-playing AI project exploring:
 
-<h3>Chess Master Coach</h3>
-<p>A chess-focused educational software project designed around helping players understand games and improve. Future AI integration can use information such as a player's Elo and learning needs.</p>
-<p><strong>Focus:</strong> Software engineering · chess education · future AI integration</p>
-<p><strong>Status:</strong> Ongoing project</p>
+- Neural network evaluation
+- Self-play reinforcement learning
+- Chess board representation
+- Model training and evaluation
+- Reliable move selection
 
-</td></tr>
+**Focus:** Python · Machine Learning · Reinforcement Learning
+
+**Status:** Development / learning project
+
+**Future goal:** Integrate the trained model with Chess Master Coach.
+
+</td>
+<td width="50%" valign="top">
+
+### Chess Master Coach
+
+A chess education platform focused on helping players understand their games and improve their skills.
+
+Key development areas:
+
+- Chess game analysis
+- Software engineering
+- Learning-oriented feedback
+- User-specific improvement
+- Future integration with custom AI models
+
+**Focus:** Chess Education · Software Development · AI Integration
+
+**Status:** Ongoing project
+
+</td>
+</tr>
 </table>
 
+---
 
 ## `> security --practice`
 
-Hands-on security learning through **pwn.college**, **PortSwigger Web Security Academy**, and Linux fundamentals. My interests include web application security, networking, security tooling, and binary exploitation.
+Hands-on cybersecurity learning through:
 
-**Certifications:** CompTIA A+ · CompTIA ITF+ · Google Cybersecurity Certificate
+- **pwn.college** — Linux fundamentals and security exercises
+- **PortSwigger Web Security Academy** — Web application security
+- **TryHackMe** — Practical cybersecurity labs
+- **Linux** — System administration and security fundamentals
 
-**Current learning direction:** Linux Lunatarium → Computing 101 → Playing with Programs.
+### Certifications
+
+- CompTIA A+
+- CompTIA ITF+
+- Google Cybersecurity Professional Certificate
+
+### Current Learning Path
+
+```text
+Linux Lunatarium
+       |
+       v
+Computing 101
+       |
+       v
+Playing with Programs
+       |
+       v
+Practical Exploitation & Security Research
+```
+
+---
 
 ## `> low_level --inspect`
 
-C++, assembly fundamentals, Linux tooling, process and memory concepts, debugging, and understanding software beyond high-level abstractions.
+Interested in understanding software beyond high-level abstractions.
+
+```text
+SYSTEMS EXPLORATION
+-------------------
+C++ Programming
+Assembly Fundamentals
+Memory Management
+Linux Internals
+Processes & System Calls
+Debugging
+Binary Analysis
+```
+
+---
 
 ## `> leetcode --progress`
 
-I'm practicing algorithmic problem solving with LeetCode. **Live LeetCode statistics are disabled until I add my username**; no solved counts or ranks are invented.
+I practice algorithmic problem-solving and data structures through LeetCode.
 
-*Areas of practice:* arrays, hash maps, recursion, graphs, dynamic programming, and complexity analysis.
+**Areas of focus:**
+
+- Arrays and strings
+- Hash maps and sets
+- Linked lists and trees
+- Graph algorithms
+- Recursion
+- Dynamic programming
+- Time and space complexity
+
+*Live LeetCode statistics will be enabled when a username is provided.*
+
+---
 
 ## `> focus --visualize`
 
+### 01 // Technical Focus
+
 <div align="center">
-<table>
-<tr>
-<td width="58%" align="center" valign="top">
-<img src="assets/focus-bars.svg" width="100%" alt="Editable areas of learning emphasis" />
-</td>
-<td width="42%" align="center" valign="top">
-<img src="assets/focus-radar.svg" width="100%" alt="Editable radar of learning emphasis" />
-</td>
-</tr>
-</table>
+
+<img
+  src="assets/focus-bars.svg"
+  width="100%"
+  alt="C0dingPaper technical learning focus"
+/>
+
 </div>
 
-These charts are **editable learning priorities**, not scored certifications or objective proficiency measurements. Change `focus.json` and run the chart generator to regenerate them.
+### 02 // Technical Radar
+
+<div align="center">
+
+<img
+  src="assets/focus-radar.svg"
+  width="100%"
+  alt="C0dingPaper technical focus radar chart"
+/>
+
+</div>
+
+**Current learning priorities:**
+
+| Domain | Focus |
+|---|---|
+| AI & Machine Learning | 7/10 |
+| Cybersecurity | 5/10 |
+| Systems & Linux | 4/10 |
+| Algorithms | 6/10 |
+| Software Engineering | 4/10 |
+| Low-level Programming | 3/10 |
+
+*These values are editable learning priorities, not independently verified proficiency measurements.*
+
+To update them, modify `focus.json` and regenerate the charts.
+
+---
 
 ## `> github --stats`
 
+### 03 // GitHub Metrics
+
 <div align="center">
-<table>
-<tr>
-<td width="70%" align="center"><img src="assets/github-stats.svg" width="100%" alt="C0dingPaper GitHub repository statistics" /></td><br>
-<td width="70%" align="center"><img src="assets/github-languages.svg" width="100%" alt="Primary languages of public repositories" /></td>
-</tr>
-</table>
+
+<img
+  src="assets/github-stats.svg"
+  width="100%"
+  alt="C0dingPaper GitHub statistics"
+/>
+
+</div>
+
+### 04 // Programming Languages
+
+<div align="center">
+
+<img
+  src="assets/github-languages.svg"
+  width="100%"
+  alt="C0dingPaper GitHub programming language statistics"
+/>
+
 </div>
 
 *Stats are generated from public GitHub repository metadata by a scheduled GitHub Action. Language statistics count repositories by their primary language, not lines of code.*
 
+---
+
 <div align="center">
-<img src="assets/madara-moving.gif" width="420" alt="Animated Madara Sharingan visual" />
+
+<img
+  src="assets/madara-moving.gif"
+  width="420"
+  alt="Animated Madara Sharingan visual"
+/>
+
 </div>
+
+---
 
 ## `> sharingan --contributions --animate`
 
 <div align="center">
 
 <a href="https://github.com/C0dingPaper">
-<img src="https://raw.githubusercontent.com/C0dingPaper/C0dingPaper/output/sharingan-snake.svg" width="100%" alt="Large animated Sharingan-red GitHub contribution graph" />
+
+<img
+  src="https://raw.githubusercontent.com/C0dingPaper/C0dingPaper/output/sharingan-snake.svg"
+  width="100%"
+  alt="Animated crimson GitHub contribution snake"
+/>
+
 </a>
 
-**Crimson contribution snake** · Regenerated automatically by GitHub Actions
+**CRIMSON CONTRIBUTION SNAKE**
+
+*Automatically generated from GitHub contribution activity.*
 
 </div>
 
-
+---
 
 <div align="center">
-<img src="assets/footer.svg" width="100%" alt="Animated red footer" />
+
+<img
+  src="assets/footer.svg"
+  width="100%"
+  alt="Animated Sharingan footer"
+/>
+
 </div>
