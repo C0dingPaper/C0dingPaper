@@ -1,0 +1,33 @@
+name: Regenerate Focus Charts
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "focus.json"
+      - "scripts/generate_focus.py"
+      - ".github/workflows/charts.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  charts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate charts
+        run: python scripts/generate_focus.py
+      - name: Commit generated charts if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/focus-bars.svg assets/focus-radar.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regenerate Sharingan focus graphics"
+            git push
+          fi

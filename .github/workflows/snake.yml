@@ -1,0 +1,37 @@
+name: Sharingan Contribution Snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sharingan-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate animated scarlet contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: C0dingPaper
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/sharingan-snake.svg?color_snake=%23ff334d&color_dots=%230b0709,%23440d18,%238a1325,%23c51e37,%23ff4b60
+
+      - name: Publish animation to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
