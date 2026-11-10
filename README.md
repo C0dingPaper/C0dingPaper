@@ -4,7 +4,7 @@
 
 <br />
 
-[![Typing intro](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=FF3D55&center=true&vCenter=true&width=700&lines=Computer+Science+%26+AI+Student;Cybersecurity+Enthusiast;Custom+AI+Model+Development;Linux+%7C+C%2B%2B+%7C+Assembly;Algorithms+%26+Chess+Engineering)](https://github.com/DenverCoder1/readme-typing-svg)
+[![Typing intro](https://readme-typing-svg.demolab.com?font=Helvetica&weight=700&size=21&duration=2800&pause=800&color=FF3D55&center=true&vCenter=true&width=760&lines=Computer+Science+%26+AI+Student;Cybersecurity+Enthusiast;Custom+AI+Model+Development;Linux+%7C+C%2B%2B+%7C+Assembly;Algorithms+%26+Systems+Thinking)](https://github.com/DenverCoder1/readme-typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=C0dingPaper-Sharingan-Views-20261110&base=2477&style=for-the-badge&color=8c1024&label=PROFILE+VIEWS" alt="Profile views" />
 
@@ -20,7 +20,7 @@ $ cat focus.txt
 [SECURITY]  Linux, web security, networking, hands-on security labs
 [SYSTEMS]   C++, assembly, debugging, low-level computing
 [ALGO]      Data structures, algorithms, LeetCode practice
-[CHESS]     Chess AI Engine + Chess Master Coach
+[PROJECTS]  Chess AI Engine + Chess Master Coach
 ```
 
 ## `> tech_stack --list`
@@ -78,8 +78,16 @@ I'm practicing algorithmic problem solving with LeetCode. **Live LeetCode statis
 ## `> focus --visualize`
 
 <div align="center">
+<table>
+<tr>
+<td width="58%" align="center" valign="top">
 <img src="assets/focus-bars.svg" width="100%" alt="Editable areas of learning emphasis" />
-<img src="assets/focus-radar.svg" width="80%" alt="Editable radar of learning emphasis" />
+</td>
+<td width="42%" align="center" valign="top">
+<img src="assets/focus-radar.svg" width="100%" alt="Editable radar of learning emphasis" />
+</td>
+</tr>
+</table>
 </div>
 
 These charts are **editable learning priorities**, not scored certifications or objective proficiency measurements. Change `focus.json` and run the chart generator to regenerate them.
@@ -87,20 +95,24 @@ These charts are **editable learning priorities**, not scored certifications or 
 ## `> github --stats`
 
 <div align="center">
-
-<img src="assets/github-stats.svg" width="49%" alt="C0dingPaper GitHub repository statistics" />
-<img src="assets/github-languages.svg" width="49%" alt="Primary languages of public repositories" />
-
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/github-stats.svg" width="100%" alt="C0dingPaper GitHub repository statistics" /></td>
+<td width="50%" align="center"><img src="assets/github-languages.svg" width="100%" alt="Primary languages of public repositories" /></td>
+</tr>
+</table>
 </div>
 
 *Stats are generated from public GitHub repository metadata by a scheduled GitHub Action. Language statistics count repositories by their primary language, not lines of code.*
+
+<div align="center">
+<img src="assets/madara-moving.gif" width="420" alt="Animated Madara Sharingan visual" />
+</div>
 
 ## `> sharingan --contributions --animate`
 
 <div align="center">
 
-<!-- Full-width animated snake based on the real contribution calendar. -->
-<!-- This file appears ONLY after the snake workflow finishes successfully. -->
 <a href="https://github.com/C0dingPaper">
 <img src="https://raw.githubusercontent.com/C0dingPaper/C0dingPaper/output/sharingan-snake.svg" width="100%" alt="Large animated Sharingan-red GitHub contribution graph" />
 </a>
@@ -109,7 +121,7 @@ These charts are **editable learning priorities**, not scored certifications or 
 
 </div>
 
-> The generated snake is an **animated SVG**. It is not the native GitHub contribution calendar. If the image is missing, run **Sharingan Contribution Snake** under the repository's Actions tab and consult `SETUP.md`.
+> The generated snake is an **animated SVG**. It is not the native GitHub contribution calendar. If the image is missing, go to **Actions** and run **Sharingan Contribution Snake** once so GitHub creates the `output` branch and publishes `sharingan-snake.svg`.
 
 ---
 

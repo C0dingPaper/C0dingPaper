@@ -1,29 +1,11 @@
 {
   "description": "Illustrative learning emphasis, not verified proficiency. Edit weights to match your current focus.",
   "areas": [
-    {
-      "name": "AI & ML",
-      "weight": 5
-    },
-    {
-      "name": "Cybersecurity",
-      "weight": 5
-    },
-    {
-      "name": "Systems & Linux",
-      "weight": 4
-    },
-    {
-      "name": "Algorithms",
-      "weight": 4
-    },
-    {
-      "name": "Chess Engineering",
-      "weight": 5
-    },
-    {
-      "name": "Low-level Programming",
-      "weight": 3
-    }
+    {"name": "AI & ML", "weight": 7},
+    {"name": "Cybersecurity", "weight": 5},
+    {"name": "Systems & Linux", "weight": 4},
+    {"name": "Algorithms", "weight": 6},
+    {"name": "Software Engineering", "weight": 4},
+    {"name": "Low-level Programming", "weight": 3}
   ]
 }
