@@ -121,7 +121,6 @@ These charts are **editable learning priorities**, not scored certifications or 
 
 </div>
 
-> The generated snake is an **animated SVG**. It is not the native GitHub contribution calendar. If the image is missing, go to **Actions** and run **Sharingan Contribution Snake** once so GitHub creates the `output` branch and publishes `sharingan-snake.svg`.
 
 ---
 
